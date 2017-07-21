@@ -8,7 +8,7 @@ references to needed equations
 import math
 
 def sigmoid(z):
-    return 1 / (1 + math.exp(-1 * z))
+    return float(1 / float((1 + math.exp(-1 * z))))
 
 '''
 The hypothesis can be calculated using either vectorized or iterative versions
